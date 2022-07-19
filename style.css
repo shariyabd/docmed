@@ -1,0 +1,946 @@
+*{
+    margin: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Poppins', sans-serif
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*===================================== 
+top social media icon styling start here  
+=======================================*/
+
+.top-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background-color: #F5FBFF;
+    
+}
+.top-social .social-left span{
+    padding: 0px 10px;
+    font-size: 14px;
+   
+}
+.top-social .social-left span a{
+    color: gray;
+}
+.top-social .social-right span{
+    padding: 0px 10px;
+    font-size: 13px;
+    color: gray;
+}
+.top-social .social-right span i{
+    color: #009DFF;
+}
+
+/*===================================== 
+top social media icon styling start here  
+=======================================*/
+
+
+
+
+
+
+
+
+/*========================================
+ navbar section styling start here
+ ==========================================  */
+
+nav{
+    width: 100%;
+    max-width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 80px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+nav .logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+nav .nav-items{
+    list-style: none;
+    padding: 0px 10px;
+}
+nav .nav-items li{
+    display: inline-block;
+}
+nav .nav-items li a{
+    text-decoration: none;
+    color:#727272;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav .nav-items li a:hover{
+    color: #009DFF;
+    transition: 0.5s all ease;
+}
+nav .appoint-btn{
+    padding: 0px 10px;
+}
+
+nav .appoint-btn a{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #009DFF;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+nav .appoint-btn a:hover{
+    border: 2px solid #009DFF;
+    background-color: transparent;
+    color: #009DFF;
+    transition: 0.5s all ease;
+}
+
+nav .side-bar{
+    display: none;
+    z-index: 999;
+}
+nav .side-bar i{
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 999;
+    cursor: pointer;
+}
+nav .side-bar i.active:before{
+    content: "\f00d";
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 999;
+    color: #009DFF;
+    cursor: pointer;
+}
+
+
+/*========================================
+ navbar section styling end here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+ /*========================================
+ home section styling start here
+ ==========================================  */
+.home{
+    
+    width: 100%;
+    max-width: 100%;
+    height: 650px;
+    padding: 20px 80px;
+    background: url('img/home-section.webp') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+
+.home .home-info{
+   flex-basis: 50%;
+ 
+}
+.home .home-info h1{
+    font-size: 80px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+.home .home-info h2{
+    font-size: 70px;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+.home .home-info p{
+    padding: 5px 0px;
+    padding-bottom: 30px;
+    color: gray;
+}
+
+.home .home-info a{
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 2px;
+    color: white;
+    background-image: linear-gradient(to right, #0684F5 , #57b0feee);
+}
+
+.home .home-info a:hover{
+    background-image: linear-gradient(to right, white , white);
+    color: #009DFF;
+    outline: 1px solid #009DFF;
+    transition: .5s all ease;
+}
+
+
+/*========================================
+ home section styling start here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+
+ /*========================================
+  services section styling start here
+ ==========================================  */
+
+.services{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.services .service1{
+    width: 100%;
+    height: 100%;
+    flex-basis: 35%;
+    padding: 65px 20px;
+    padding-left: 80px;
+    background-color: #83C4FF;
+}
+.services .service1 h1,.service2 h1,.service3 h1{
+    font-size: 25px;
+    padding: 10px 0px;
+    color: white;
+
+}
+.services .service1 i,.service2 i,.service3 i{
+    color: white;
+    font-size: 45px;
+}
+.services .service1 p{
+    padding-bottom:25px ;
+    color: white;
+    line-height: 25px;
+}
+.services .service2{
+    width: 100%;
+    height: 100%;
+    flex-basis: 30%;
+    padding: 65px  20px;
+    background-color: #5DB2FF;
+    color: white;
+    line-height: 25px;
+}
+.services .service2 p{
+    padding-bottom:25px ;
+}
+.services .service3{
+    width: 100%;
+    height: 100%;
+    flex-basis: 35%;
+    padding: 65px 20px;
+    padding-right: 80px;
+    background-color: #83C4FF;
+}
+
+.services .service3 p{
+    padding-bottom:25px ;
+    color: white;
+    line-height: 25px;
+}
+.services a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 10px 35px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+.services a:hover{
+    transition: 0.6s all ease;
+    background-color: white;
+    outline: 1px solid #009DFF;
+    color: #009DFF;
+
+}
+
+
+/*========================================
+ services section styling end here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+ /*========================================
+ about section styling start here
+ ==========================================  */
+
+
+.about-sec{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 65px 48px;
+    padding-bottom: 80px;
+}
+
+.about-sec .about-img{
+    flex-basis: 45%;
+    display: flex;
+}
+.about-sec .about-img img{
+    width: 60%;
+    height: 60%;
+}
+.about-sec .about-img .image{
+    margin-top: 60px;
+    margin-left: -60px;
+}
+.about-sec .about-info{
+    flex-basis: 45%;
+    padding-left: 80px;
+}
+.about-sec .about-info h4{
+    padding: 26px 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom-style: 1px solid;
+    border-color: #009DFF;
+
+    
+}
+.about-sec .about-info h1{
+    padding: 10px 10px;
+    font-size: 35px;
+    
+    
+}
+.about-sec .about-info p{
+    padding: 5px 10px;
+    font-size: 15px;
+    line-height: 25px;
+    color: gray;
+ 
+}
+.about-sec .about-info ul{
+    padding: 5px 10px;
+}
+.about-sec .about-info ul li{
+    list-style: none;
+    color: gray;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+.about-sec .about-info ul li i{
+    color: #009DFF;
+    font-size: 16px;
+    padding-right: 15px;
+}
+.about-sec .about-info a{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: white;
+    color: #009DFF;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid #009DFF;
+    cursor: pointer;
+    margin-left: 5px;
+ 
+}
+.about-sec .about-info a:hover{
+    background-color: #009DFF;
+    color: white;
+    transition: .6s all ease;
+}
+
+
+/*========================================
+ About section styling end here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*========================================
+ department section styling start here
+ ==========================================  */
+.our-dept{
+    padding: 80px 80px;
+    background-color: #F5FBFF;
+}
+.our-dept .dept-head{
+    padding-top: 50px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.our-dept .dept-head h1{
+    font-size: 35px;
+    padding: 20px 0px;
+}
+.our-dept .dept-head p{
+    font-size: 15px;
+    line-height: 25px;
+    color: gray;
+}
+.our-dept .dept-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.our-dept .dept-body .dept{
+    width: 30%;
+    margin: 10px 0px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+.our-dept .dept-body .dept:hover img{
+    transform: scale(1.1);
+    transition: .6s all ease;
+}
+.our-dept .dept-body .dept img{
+    width: 100%;
+    height: 100%;
+}
+.our-dept .dept-body .dept .dept-info{
+    padding: 20px 20px;
+}
+.our-dept .dept-body .dept .dept-info p{
+    padding: 5px 0px;
+    line-height: 25px;
+    color: gray;
+    font-size: 16px;
+}
+.our-dept .dept-body .dept .dept-info a{
+    text-decoration: none;
+    color: #009DFF;
+}
+
+
+ /*========================================
+ department section styling end here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+
+
+
+  /*========================================
+ testimonial section styling start here
+ ==========================================  */
+
+#testimonial{
+    padding: 40px 80px;
+    width: 100%;
+    height: 500px;
+    background: url('img/testimonial.webp') no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.testimonial {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.476);
+    width: 100%;
+    height: 100%;
+    margin:  0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.testimonial q{
+    width: 60%;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+
+  /*========================================
+ testimonial section styling end here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+
+
+/*========================================
+ tab section styling start here
+==========================================  */
+
+.tab{
+    width: 90%;
+    height: 500px;
+    padding: 40px 50px;
+    margin: 15px auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.tab .tab-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab .tab-head button{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 15px 25px;
+    background-color: white;
+    cursor: pointer;
+    
+}
+.tab .tab-head #btn1{
+    color: white;
+    background-color: #009DFF;
+}
+
+.tab .tab-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-wrap: wrap;
+    padding: 20px 5px;
+    opacity: 0;
+    transition: 0.6s all ease;
+    transform: scale(0.5);
+
+}
+.tab #tab-body1{
+    opacity: 1;
+    transform: scale(1);
+}
+.tab .tab-body .left-item{
+    flex-basis: 45%;
+}
+.tab .tab-body .left-item i{
+    color: #009DFF;
+    font-size: 45px;
+    padding-left: 5px;
+}
+.tab .tab-body .left-item h2{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.tab .tab-body .left-item p{
+    padding: 5px 5px;
+    line-height: 24px;
+    color: gray;
+}
+.tab .tab-body .right-item{
+    flex-basis: 45%;
+    text-align: center;
+}
+
+.tab .tab-body .right-item img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+  /*========================================
+    tab section styling end here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*========================================
+    doctors section styling start here
+ ==========================================  */
+.doctors{
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    padding: 60px 80px;
+}
+
+.doctors .doctors-head{
+    padding: 40px 0px;
+    padding-left: 15px;
+}
+.doctors .doctors-head h2{
+    font-size: 40px;
+    
+}
+
+.doctors .all-doctor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.doctors .all-doctor .doctor{
+    flex-basis: 22%;
+    background-color: #F5FBFF;
+    margin: 5px 0px;
+   
+}
+.doctors .all-doctor .doctor:hover .doctor-info{
+    background-color: #009DFF;
+    color: white;
+    transition: 0.3s all ease;
+}
+.doctors .all-doctor .doctor:hover .doctor-info p{
+    color: white;
+}
+.doctors .all-doctor .doctor img{
+    width: 100%;
+    height: 100%;
+}
+.doctors .all-doctor .doctor .doctor-info{
+    padding: 15px 10px;
+    text-align:center;
+}
+.doctors .all-doctor .doctor .doctor-info p{
+    padding-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+ /*========================================
+    doctors section styling end here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+
+
+  /*========================================
+    contact section styling start here 
+ ==========================================  */ 
+
+
+.contact-info{
+    width: 100%;
+    height: 320px;
+    padding: 0px 0px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.contact-info .contact-left{
+    position: relative;
+    flex-basis: 50%;
+    background: url('img/footer1.webp') no-repeat;
+    background-size: cover;
+    clear: both;
+   
+    
+}
+.contact-info .contact-left .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info .contact-left .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0081fa78;
+    z-index: 0;
+}
+.contact-info .contact-left .overlay .cont-info{
+    color: white;
+    padding: 10px 20px;
+}
+.contact-info .contact-left .cont-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 100px;
+
+
+}
+.contact-info .contact-left .cont-btn a:hover{
+    background-color: white;
+    color: #009DFF;
+    transition: 0.5s all ease;
+}
+.contact-info .contact-right{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    background: url('img/footer2.webp') no-repeat;
+    background-size: cover;
+}
+.contact-info .contact-right .overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7bbdfb86;
+}
+
+.contact-info .contact-right .cont-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-radius: 100px;
+
+
+}
+.contact-info .contact-right .cont-btn a:hover{
+    background-color: white;
+    color: #009DFF;
+    transition: 0.5s all ease;
+}
+.contact-info .contact-right .overlay .cont-info{
+    color: white;
+    padding: 10px 20px;
+}
+
+
+ /*========================================
+    contact section styling end here
+ ==========================================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*========================================
+    footer section styling start here
+ ==========================================  */
+
+.footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 90px 90px;
+    background-color: #1F1F1F;
+}
+.footer-section .footer-content1{
+    flex-basis: 25%;
+    padding: 10px 30px;
+}
+.footer-section .footer-content1 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.footer-section .footer-content1 span{
+    display: inline-flex;
+    margin: 5px;
+    padding: 12px 20px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+}
+.footer-section .footer-content1 span a {
+    text-decoration: none;
+    color: rgb(194, 169, 169);
+}
+
+
+.footer-section .footer-content1 p{
+    color: white;
+    padding: 40px 0px;
+   
+   
+}
+.footer-section .footer-content2{
+    flex-basis: 22%;
+    padding: 10px 30px;
+}
+.footer-section .footer-content2  h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer-section .footer-content2  a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+.footer-section .footer-content3{
+    flex-basis: 22%;
+    padding: 10px 30px;
+}
+.footer-section .footer-content3 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer-section .footer-content3 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+.footer-section .footer-content4{
+    flex-basis: 22%;
+    padding: 10px 30px;
+}
+
+.footer-section .footer-content4 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer-section .footer-content4 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+  /*========================================
+    footer section styling end here
+ ==========================================  */

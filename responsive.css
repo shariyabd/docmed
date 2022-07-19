@@ -1,0 +1,589 @@
+
+
+/*---------------------------- 
+top social media section start here 
+--------------------------------*/
+
+@media screen and (max-width:600px) {
+
+    .top-social{
+        flex-direction: column;
+        padding: 10px 50px;
+    }
+    .top-social .social-left,.social-right{
+        padding: 5px 0px;
+    }
+    .top-social .social-right span {
+        display: block;
+    }   
+   
+}
+
+/*---------------------------- 
+top social media section end here 
+--------------------------------*/
+
+
+
+
+
+
+/*---------------------------- 
+navbar section start here
+--------------------------------*/
+@media screen and (max-width:500px){
+    nav{
+        padding: 20px 40px;
+    }
+  }
+@media screen and (max-width:1050px){
+    nav .nav-items{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 150px;
+    }
+    nav .nav-items.active{
+        left: 0;
+        transition: .6s all ease;
+    }
+    nav .nav-items li{
+        display: block;
+        margin: 10px 0px;
+        
+    }
+    nav .nav-items li a{
+      color: white;
+        
+    }
+    nav .appoint-btn{
+        display: none;
+    }
+    nav .side-bar{
+        display: block;
+    }
+    
+}
+
+
+/*---------------------------- 
+navbar section end here
+--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------- 
+home section start here
+--------------------------------*/
+
+@media screen and (max-width:900px){
+    .home .home-info{
+        flex-basis: 100%;
+     }
+}
+@media screen and (max-width:650px){
+    .home{
+        padding-bottom: 70px;
+    }
+    .home .home-info h1{
+        font-size: 50px;
+        
+    }
+    .home .home-info h2{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:550px){
+    .home{
+        padding: 20px 50px;
+    }
+    .home .home-info{
+        flex-basis: 100%;
+     }
+
+     .home .home-info h1{
+        font-size: 40px;
+        
+    }
+    .home .home-info h2{
+        font-size: 40px;
+    }
+    .home .home-info a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px 25px;
+    border-radius: 2px;
+    color: white;
+    background-image: linear-gradient(to right, #0684F5 , #57b0feee);
+}
+
+}
+
+/*---------------------------- 
+home section end here
+--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------- 
+service section start here
+--------------------------------*/
+
+@media screen and (max-width:900px){
+    .service{
+        height: auto;
+    }
+    .services .service1{
+       
+        flex-basis: 50%;
+      
+    }
+   
+    .services .service2{
+        flex-basis: 50%;
+       
+    }
+    .services .service3{
+        flex-basis: 100%;
+       
+    }
+}
+@media screen and (max-width:650px){
+    .services .service1{
+        padding: 65px 20px;
+      
+    }
+}
+@media screen and (max-width:600px){
+    .services .service1{
+        padding: 65px 40px;
+        flex-basis: 100%;
+      
+    }
+   
+    .services .service2{
+        flex-basis: 100%;
+        padding: 65px 40px;
+       
+    }
+    .services .service3{
+        flex-basis: 100%;
+        padding-right: 0px;
+        padding: 65px 40px;
+   
+       
+    }
+}
+@media screen and (max-width:350px){
+    .services .service1{
+        padding: 65px 10px;
+      height: 350px;
+      
+    }
+   
+    .services .service2{
+        height: 350px;
+        padding: 65px 10px;
+    }
+    .services .service3{
+        padding: 65px 10px;
+        height: 370px;
+    }
+    .services a{
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+}
+
+/*---------------------------- 
+service section end here
+--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------- 
+about section start here
+--------------------------------*/
+
+@media screen and (max-width:950px){
+    .about-sec{
+     margin-top: 270px;
+    }
+.about-sec .about-img{
+    flex-basis: 90%;
+    display: flex;
+}
+.about-sec .about-img img{
+    width: 100%;
+    height: 100%;
+}
+.about-sec .about-img .image{
+    display: none;
+}
+
+.about-sec .about-info{
+    flex-basis: 90%;
+    padding-left: 80px;
+}
+}
+
+
+@media screen and (max-width:600px){
+    .about-sec{
+        margin-top: 600px;
+       }
+    .about-sec{
+        padding: 65px 20px;
+    }
+    .about-sec .about-info{
+        flex-basis: 100%;
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width:350px){
+    .about-sec{
+        padding-top: 170px;
+        padding-bottom: 30px;
+    
+       }
+}
+
+/*---------------------------- 
+about section end here
+--------------------------------*/
+
+
+
+
+
+/*---------------------------- 
+department section start here
+--------------------------------*/
+
+@media screen and (max-width:950px){
+    .our-dept{
+       margin-top: 720px;
+    }
+    .our-dept .dept-body .dept{
+        width: 30%;
+        margin: 10px 0px;
+        background-color: white;
+    }
+}
+@media screen and (max-width:750px){
+    .our-dept{
+        margin-top: 600px;
+     }
+    .our-dept .dept-body .dept{
+        width: 45%;
+     
+    }
+}
+
+@media screen and (max-width:600px){
+    .our-dept{
+        margin-top: 450px;
+     }
+    .our-dept{
+        padding: 40px 30px;
+       
+    }
+    .our-dept .dept-head{
+        width: 80%;
+       
+    }
+    .our-dept .dept-head h1{
+        font-size: 30px;
+       
+    }
+    .our-dept .dept-body .dept{
+        width: 90%;
+     
+    }
+}
+
+
+
+/*---------------------------- 
+department section end here
+--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------- 
+tab section start here
+--------------------------------*/
+
+@media screen and (max-width:950px){
+    .tab{
+        height: 800px;
+    }
+    .tab .tab-body .left-item{
+        flex-basis: 90%;
+    }
+    .tab .tab-body .right-item{
+        flex-basis: 90%;
+        
+    }
+    
+}
+@media screen and (max-width:600px){
+    .tab{
+        padding: 40px 30px;
+    
+    }
+    .tab .tab-body .left-item{
+        flex-basis: 100%;
+    }
+    .tab .tab-body .right-item{
+        flex-basis: 100%;
+        
+    }
+}
+
+
+
+/*---------------------------- 
+tab section end here
+--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------- 
+doctors section start here
+--------------------------------*/
+
+@media screen and (max-width:950px){
+  
+}
+@media screen and (max-width:900px){
+    .doctors .all-doctor .doctor{
+        flex-basis: 30%;
+       
+    }
+}
+@media screen and (max-width:700px){
+    .doctors .all-doctor .doctor{
+        flex-basis: 45%;
+       
+    }
+    .doctors{
+        padding: 60px 40px;
+    }
+}
+@media screen and (max-width:500px){
+    .doctors{
+        padding: 60px 40px;
+    }
+    .doctors .doctors-head{
+        width: 100%;
+    }
+    .doctors .doctors-head h2{
+        font-size: 25px;
+    }
+    .doctors .all-doctor .doctor{
+        flex-basis: 95%;
+       
+    }
+}
+
+
+
+/*---------------------------- 
+doctors section end here
+--------------------------------*/
+
+
+
+
+
+
+
+
+
+/*---------------------------- 
+contact section start here
+--------------------------------*/
+
+@media screen and (max-width:900px){
+    .contact-info{
+        margin-top: 150px;
+    }
+    .contact-info .contact-left .overlay{
+        flex-direction: column;
+    }
+    .contact-info .contact-left .cont-btn{
+        padding-top: 25px;
+    }
+    .contact-info .contact-right .overlay{
+        flex-direction: column;
+    }
+    .contact-info .contact-right .cont-btn{
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width:700px){
+    .contact-info{
+        margin-top: 300px;
+        height: 400px;
+    }
+    .contact-info .contact-left{
+        flex-basis: 100%;
+        
+    }
+    .contact-info .contact-right{
+        flex-basis: 100%;
+        
+    }
+    .contact-info .contact-left .overlay .cont-info{
+        text-align: center;
+    }
+    .contact-info .contact-right .overlay .cont-info{
+        text-align: center;
+    }
+    .contact-info .contact-left .overlay{
+        padding: 60px 0px;
+    }
+}
+@media screen and (max-width:500px){
+    .contact-info{
+        margin-top: 1400px;
+        
+    }
+}
+@media screen and (max-width:400px){
+    .contact-info{
+        height: 600px;
+        margin-top: 1070px;
+    
+    }
+  
+}
+
+/*---------------------------- 
+contact section end here
+--------------------------------*/
+
+
+
+
+
+
+
+/*---------------------------- 
+footer section start here
+--------------------------------*/
+
+@media screen and (max-width:850px){
+    .footer-section{
+        padding: 50px 50px;
+        padding: 10px 20px;
+     
+    }
+    .footer-section .footer-content1{
+        flex-basis: 30%;
+        padding: 10px 20px;
+    }
+    .footer-section .footer-content2{
+        flex-basis: 30%;
+        padding: 10px 20px;
+    }
+
+    .footer-section .footer-content3{
+        flex-basis: 30%;
+        padding: 10px 20px;
+    }
+    .footer-section .footer-content4{
+        flex-basis: 30%;
+        padding: 10px 20px;
+    }
+
+}
+@media screen and (max-width:650px){
+    .footer-section .footer-content1 h1, .footer-section .footer-content2 h1,  .footer-section .footer-content3 h1,  .footer-section .footer-content4 h1{
+        font-size: 25px;
+    }
+    .footer-section .footer-content1{
+        flex-basis: 50%;
+        padding: 10px 10px;
+    }
+    .footer-section .footer-content2{
+        flex-basis: 50%;
+        padding: 10px 10px;
+    }
+
+    .footer-section .footer-content3{
+        flex-basis: 50%;
+        padding: 10px 10px;
+    }
+    .footer-section .footer-content4{
+        flex-basis: 50%;
+        padding: 10px 10px;
+    }
+}
+@media screen and (max-width:450px){
+    .footer-section .footer-content1{
+        flex-basis: 100%;
+        padding: 10px 10px;
+    }
+    .footer-section .footer-content2{
+        flex-basis: 100%;
+        padding: 10px 10px;
+    }
+
+    .footer-section .footer-content3{
+        flex-basis: 100%;
+        padding: 10px 10px;
+    }
+    .footer-section .footer-content4{
+        flex-basis: 100%;
+        padding: 10px 10px;
+    }
+}
+  
+
+
+/*---------------------------- 
+footer section end here
+--------------------------------*/
